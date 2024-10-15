@@ -48,7 +48,10 @@ console.log(account.address); // example@walkmail.ru
 
 **Get messages**
 
-```javascript
+``````javascript
+   let name = 'Juan';
+   const age = 25;
+   ```javascript
 account.getMail().then((messages) => {
   console.log(messages);
 });
